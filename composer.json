@@ -28,7 +28,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Moderator Warnings",
+            "title": "Warnings",
             "category": "feature",
             "icon": {
                 "name": "fas fa-exclamation-circle",
