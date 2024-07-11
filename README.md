@@ -34,5 +34,5 @@ The base UI for this extension is based on, and reuses some code from, Friends o
 
 ### Links
 
-- [Packagist](https://packagist.org/packages/askvortsov/flarum-moderator-warnings)
-- [Github](https://github.com/askvortsov1/flarum-moderator-warnings)
+- [Packagist](https://packagist.org/packages/googolowo/flarum-warnings)
+- [Github](https://github.com/GoogolOwO/flarum-warnings)
