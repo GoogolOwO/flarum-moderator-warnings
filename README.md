@@ -1,8 +1,10 @@
-# Flarum Moderator Warnings
+# Flarum Warnings
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/askvortsov/flarum-moderator-warnings.svg)](https://packagist.org/packages/askvortsov/flarum-moderator-warnings)
 
-A [Flarum](http://flarum.org) extension. This allows moderators to warn users. Warnings can be applied from a post or from the user's profile. Each warning contains a number of strikes (0 - 5), a message visible to the user, and a message visible only to other moderators. Users will recieve notifications for warnings they recieve.
+A [Flarum](http://flarum.org) extension. This allows moderators to warn users. Warnings can be applied from a post or from the user's profile. Each warning contains a number of strikes, a message visible to the user, and a message visible only to other moderators. Users will recieve notifications for warnings they recieve.
+
+Because of that Moderator Warnings plugin is abandoned, so we created a **fork version**.
 
 ### TODO
 
