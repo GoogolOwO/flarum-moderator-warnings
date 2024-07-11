@@ -36,3 +36,4 @@ The base UI for this extension is based on, and reuses some code from, Friends o
 
 - [Packagist](https://packagist.org/packages/googolowo/flarum-warnings)
 - [Github](https://github.com/GoogolOwO/flarum-warnings)
+- [Discuss](https://discuss.flarum.org/d/34837-warnings-the-fork-version-of-moderator-warnings)
