@@ -10,7 +10,7 @@ import addWarningsToPosts from './addWarningsToPosts';
 import WarningNotification from './components/WarningNotification';
 import Warning from './model/Warning';
 
-app.initializers.add('askvortsov/flarum-moderator-warnings', (app) => {
+app.initializers.add('GoogolOwO/flarum-warnings', (app) => {
   app.store.models.warnings = Warning;
   User.prototype.canViewWarnings = Model.attribute('canViewWarnings');
   User.prototype.canManageWarnings = Model.attribute('canManageWarnings');
@@ -25,7 +25,7 @@ app.initializers.add('askvortsov/flarum-moderator-warnings', (app) => {
     items.add('warning', {
       name: 'warning',
       icon: 'fas fa-exclamation-circle',
-      label: app.translator.trans('askvortsov-moderator-warnings.forum.settings.warning_notification_label'),
+      label: app.translator.trans('GoogolOwO-moderator-warnings.forum.settings.warning_notification_label'),
     });
   });
 });

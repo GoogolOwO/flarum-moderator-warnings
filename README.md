@@ -15,13 +15,13 @@ Because of that Moderator Warnings plugin is abandoned, so we created a **fork v
 Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually with composer:
 
 ```sh
-composer require googolowo/flarum-moderator-warnings
+composer require googolowo/flarum-warnings
 ```
 
 ### Updating
 
 ```sh
-composer update googolowo/flarum-moderator-warnings
+composer update googolowo/flarum-warnings
 ```
 
 ### Feedback and Bugs

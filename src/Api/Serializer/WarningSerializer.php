@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-moderator-warnings
+ * This file is part of GoogolOwO/flarum-warnings
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -9,9 +9,9 @@
  *  LICENSE file that was distributed with this source code.
  */
 
-namespace Askvortsov\FlarumWarnings\Api\Serializer;
+namespace GoogolOwO\FlarumWarnings\Api\Serializer;
 
-use Askvortsov\FlarumWarnings\Model\Warning;
+use GoogolOwO\FlarumWarnings\Model\Warning;
 use Flarum\Api\Serializer\AbstractSerializer;
 use Flarum\Api\Serializer\BasicUserSerializer;
 use Flarum\Api\Serializer\PostSerializer;

@@ -7,8 +7,8 @@
     "type": "flarum-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/askvortsov1/flarum-moderator-warnings/issues",
-        "source": "https://github.com/askvortsov1/flarum-moderator-warnings",
+        "issues": "https://github.com/GoogolOwO1/flarum-warnings/issues",
+        "source": "https://github.com/GoogolOwO1/flarum-warnings",
         "forum": "https://discuss.flarum.org/d/23228-moderator-warnings-extension"
     },
     "require": {
@@ -23,7 +23,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Askvortsov\\FlarumWarnings\\": "src/"
+            "GoogolOwO\\FlarumWarnings\\": "src/"
         }
     },
     "extra": {
@@ -56,7 +56,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Askvortsov\\FlarumWarnings\\Tests\\": "tests/"
+            "GoogolOwO\\FlarumWarnings\\Tests\\": "tests/"
         }
     },
     "scripts": {

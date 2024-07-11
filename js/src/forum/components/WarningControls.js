@@ -71,7 +71,7 @@ export default {
       items.add(
         'hide',
         <Button icon="far fa-trash-alt" onclick={this.hideAction.bind(warning)}>
-          {app.translator.trans('askvortsov-moderator-warnings.forum.warning_controls.delete_button')}
+          {app.translator.trans('GoogolOwO-moderator-warnings.forum.warning_controls.delete_button')}
         </Button>
       );
     }
@@ -79,7 +79,7 @@ export default {
       items.add(
         'restore',
         <Button icon="fas fa-reply" onclick={this.restoreAction.bind(warning)}>
-          {app.translator.trans('askvortsov-moderator-warnings.forum.warning_controls.restore_button')}
+          {app.translator.trans('GoogolOwO-moderator-warnings.forum.warning_controls.restore_button')}
         </Button>
       );
     }
@@ -87,7 +87,7 @@ export default {
       items.add(
         'delete',
         <Button icon="fas fa-times" onclick={this.deleteAction.bind(warning)}>
-          {app.translator.trans('askvortsov-moderator-warnings.forum.warning_controls.delete_forever_button')}
+          {app.translator.trans('GoogolOwO-moderator-warnings.forum.warning_controls.delete_forever_button')}
         </Button>
       );
     }

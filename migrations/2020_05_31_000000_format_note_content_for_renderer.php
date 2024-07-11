@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-moderator-warnings
+ * This file is part of GoogolOwO/flarum-warnings
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -9,7 +9,7 @@
  *  LICENSE file that was distributed with this source code.
  */
 
-use Askvortsov\FlarumWarnings\Model\Warning;
+use GoogolOwO\FlarumWarnings\Model\Warning;
 use Illuminate\Database\Schema\Builder;
 
 return [

@@ -24,7 +24,7 @@ export default function () {
             icon: 'fas fa-exclamation-circle',
           },
           [
-            app.translator.trans('askvortsov-moderator-warnings.forum.user.warnings'),
+            app.translator.trans('GoogolOwO-moderator-warnings.forum.user.warnings'),
             this.user.visibleWarningCount() > 0 ? <span className="Button-badge">{this.user.visibleWarningCount()}</span> : '',
           ]
         ),

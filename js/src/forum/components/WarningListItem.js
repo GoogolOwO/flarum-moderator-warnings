@@ -34,11 +34,11 @@ export default class WarningListItem extends Component {
           </h3>
           <span class="WarningListItem-strikes">
             {warning.isHidden()
-              ? app.translator.trans('askvortsov-moderator-warnings.forum.warning_list_item.list_item_heading_hidden', {
+              ? app.translator.trans('GoogolOwO-moderator-warnings.forum.warning_list_item.list_item_heading_hidden', {
                   time: humanTime(warning.createdAt()),
                   strikes: warning.strikes() || 0,
                 })
-              : app.translator.trans('askvortsov-moderator-warnings.forum.warning_list_item.list_item_heading', {
+              : app.translator.trans('GoogolOwO-moderator-warnings.forum.warning_list_item.list_item_heading', {
                   time: humanTime(warning.createdAt()),
                   strikes: warning.strikes() || 0,
                 })}
@@ -48,7 +48,7 @@ export default class WarningListItem extends Component {
             {warning.post() ? (
               <li className="item-excerpt">
                 <h3 className="WarningListItem-subtitle">
-                  {app.translator.trans('askvortsov-moderator-warnings.forum.warning_list_item.linked_post')}
+                  {app.translator.trans('GoogolOwO-moderator-warnings.forum.warning_list_item.linked_post')}
                 </h3>
                 {WarningPost.component({ post: warning.post() })}
               </li>
@@ -57,14 +57,14 @@ export default class WarningListItem extends Component {
             )}
             <li className="item-excerpt">
               <h3 className="WarningListItem-subtitle">
-                {app.translator.trans('askvortsov-moderator-warnings.forum.warning_list_item.public_comment')}
+                {app.translator.trans('GoogolOwO-moderator-warnings.forum.warning_list_item.public_comment')}
               </h3>
               <p class="WarningListItem-comment">{m.trust(warning.public_comment())}</p>
             </li>
             {app.session.user.canManageWarnings() && warning.private_comment() ? (
               <li className="item-excerpt">
                 <h3 className="WarningListItem-subtitle">
-                  {app.translator.trans('askvortsov-moderator-warnings.forum.warning_list_item.private_comment')}
+                  {app.translator.trans('GoogolOwO-moderator-warnings.forum.warning_list_item.private_comment')}
                 </h3>
                 <p class="WarningListItem-comment">{m.trust(warning.private_comment())}</p>
               </li>

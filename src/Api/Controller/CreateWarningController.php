@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of askvortsov/flarum-moderator-warnings
+ * This file is part of GoogolOwO/flarum-warnings
  *
  *  Copyright (c) 2021 Alexander Skvortsov.
  *
@@ -9,11 +9,11 @@
  *  LICENSE file that was distributed with this source code.
  */
 
-namespace Askvortsov\FlarumWarnings\Api\Controller;
+namespace GoogolOwO\FlarumWarnings\Api\Controller;
 
-use Askvortsov\FlarumWarnings\Api\Serializer\WarningSerializer;
-use Askvortsov\FlarumWarnings\Model\Warning;
-use Askvortsov\FlarumWarnings\Notification\WarningBlueprint;
+use GoogolOwO\FlarumWarnings\Api\Serializer\WarningSerializer;
+use GoogolOwO\FlarumWarnings\Model\Warning;
+use GoogolOwO\FlarumWarnings\Notification\WarningBlueprint;
 use Flarum\Api\Controller\AbstractCreateController;
 use Flarum\Foundation\ValidationException;
 use Flarum\Http\RequestUtil;
@@ -60,7 +60,7 @@ class CreateWarningController extends AbstractCreateController
         $publicComment = $requestData['public_comment'];
 
         if (trim($publicComment) === '') {
-            throw new ValidationException(['message' => $this->translator->trans('askvortsov-moderator-warnings.forum.validation.public_comment_required')]);
+            throw new ValidationException(['message' => $this->translator->trans('GoogolOwO-moderator-warnings.forum.validation.public_comment_required')]);
         }
 
         $warning = new Warning();
@@ -80,7 +80,7 @@ class CreateWarningController extends AbstractCreateController
         }
 
         if ($warning->strikes < 0) {
-            throw new ValidationException(['message' => $this->translator->trans('askvortsov-moderator-warnings.forum.validation.invalid_strike_count')]);
+            throw new ValidationException(['message' => $this->translator->trans('GoogolOwO-moderator-warnings.forum.validation.invalid_strike_count')]);
         }
 
         $warning->save();

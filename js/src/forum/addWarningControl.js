@@ -24,7 +24,7 @@ export default function () {
           })
         }
       >
-        {app.translator.trans('askvortsov-moderator-warnings.forum.post_controls.warning_button')}
+        {app.translator.trans('GoogolOwO-moderator-warnings.forum.post_controls.warning_button')}
       </Button>
     );
   });
@@ -45,7 +45,7 @@ export default function () {
           })
         }
       >
-        {app.translator.trans('askvortsov-moderator-warnings.forum.post_controls.warning_button')}
+        {app.translator.trans('GoogolOwO-moderator-warnings.forum.post_controls.warning_button')}
       </Button>
     );
   });
