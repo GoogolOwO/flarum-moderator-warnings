@@ -9,6 +9,7 @@ Because of that Moderator Warnings plugin is abandoned, so we created a **fork v
 ### TODO
 
 - Suspend integration (automatically suspend if users reach more than X warnings, with X configurable in settings)
+- Assume not malice warning.
 
 ### Installation
 
